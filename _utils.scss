@@ -6,3 +6,16 @@
 
     width: 160px;
 }
+
+
+.triangle {
+
+
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 140px solid rgb(239, 190, 55);
+
+    margin-bottom: 15px;
+}

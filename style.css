@@ -305,7 +305,7 @@ html {
   border-bottom: 2px solid black;
   font-size: 45px;
   padding-bottom: 10px;
-  width: 350px;
+  max-width: 350px;
 }
 .about-us-txt .about-para1 {
   font-size: 20px;
@@ -471,7 +471,7 @@ html {
 
 .our-prosecc-section > p {
   text-align: center;
-  width: 683px;
+  max-width: 683px;
   margin: auto;
   margin-top: 20px;
   color: gray;
@@ -615,7 +615,7 @@ html {
 .our-team-section > p {
   margin: auto;
   margin-top: 20px;
-  width: 660px;
+  max-width: 660px;
   text-align: center;
   color: rgb(137, 121, 121);
 }
@@ -760,6 +760,7 @@ html {
 .our-services .subscribe-text-box {
   display: flex;
   padding-bottom: 70px;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .our-services .subscribe-text-box .praesent-mattis-box {
@@ -1200,6 +1201,7 @@ html {
   display: flex;
   gap: 30px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 .latest-news-section .left-side-news .news-box .news > h3 {
   font-weight: 500;
@@ -1399,6 +1401,7 @@ footer .footer-media-sec {
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 footer .footer-media-sec .media-icon-box {
   width: 320px;
@@ -1507,7 +1510,7 @@ footer .copyright-footer p {
   .main-text {
     margin: 0;
     padding: 0;
-    max-width: 1000px;
+    max-width: 800px;
   }
   .orange-banner-text {
     text-align: center;
@@ -1552,7 +1555,7 @@ footer .copyright-footer p {
     padding: 10px;
   }
   .about-us-txt {
-    width: 550px;
+    max-width: 550px;
   }
   .latest-projects-box {
     margin: 50px 0;
@@ -1585,5 +1588,25 @@ footer .copyright-footer p {
   }
   .our-team-box {
     flex-wrap: wrap;
+  }
+  .blog-section {
+    padding-bottom: 60px;
+  }
+  .blog-section .blog .blog-box {
+    margin-top: 30px;
+  }
+  .latest-news-section .left-side-news {
+    margin: auto;
+  }
+  .latest-news-section .left-side-news .latest-news-heading-btn {
+    margin: auto;
+  }
+  .latest-news-section .left-side-news .news-box .news {
+    margin: auto;
+    max-width: 370px;
+  }
+  .latest-news-section .right-side-news {
+    margin: auto;
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

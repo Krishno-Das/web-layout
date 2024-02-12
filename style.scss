@@ -600,7 +600,7 @@ html {
 
         padding-bottom: 10px;
 
-        width: 350px;
+        max-width: 350px;
     }
 
 
@@ -914,7 +914,7 @@ html {
 
     text-align: center;
 
-    width: 683px;
+    max-width: 683px;
 
     margin: auto;
 
@@ -1168,7 +1168,7 @@ html {
 
         margin-top: 20px;
 
-        width: 660px;
+        max-width: 660px;
 
         text-align: center;
 
@@ -1437,7 +1437,7 @@ html {
 
         display: flex;
         padding-bottom: 70px;
-
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .praesent-mattis-box {
@@ -2026,7 +2026,7 @@ html {
 
     .left-side-news {
         max-width: 770px;
-        
+
 
         .latest-news-heading-btn {
             display: flex;
@@ -2068,6 +2068,7 @@ html {
             display: flex;
             gap: 30px;
             margin-top: 40px;
+            flex-wrap: wrap;
 
             .news {
 
@@ -2136,25 +2137,26 @@ html {
                 }
             }
 
-            .why-lemoni-text-img{
+            .why-lemoni-text-img {
                 display: flex;
                 gap: 15px;
-                
+
                 padding: 20px 30px;
 
-                .why-lemoni-img{
+                .why-lemoni-img {
 
                     width: 100px;
                     height: 100px;
                     background-color: grey;
                 }
-                p{
+
+                p {
                     font-size: 14px;
                     width: 206px;
                 }
             }
 
-            >p{
+            >p {
                 font-size: 14px;
                 padding: 0 30px;
             }
@@ -2374,6 +2376,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         margin-top: 40px;
+        flex-wrap: wrap;
 
 
         .media-icon-box {
@@ -2711,7 +2714,7 @@ footer {
 
         padding: 0;
 
-        max-width: 1000px;
+        max-width: 800px;
 
     }
 
@@ -2799,7 +2802,7 @@ footer {
 
     .about-us-txt {
 
-        width: 550px;
+        max-width: 550px;
     }
 
 
@@ -2868,6 +2871,61 @@ footer {
     .our-team-box {
 
         flex-wrap: wrap;
+    }
+
+
+
+
+
+    // from the blog sec
+
+
+    .blog-section{
+
+        padding-bottom: 60px;
+        .blog{
+
+            .blog-box{
+                margin-top: 30px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    // latest news sec
+
+    .latest-news-section{
+
+        .left-side-news{
+
+            margin: auto;
+
+            .latest-news-heading-btn{
+                margin: auto;
+            }
+            .news-box{
+                .news{
+                    margin:auto;
+                    max-width: 370px;
+                }
+            }
+        }
+
+
+        .right-side-news{
+
+            margin: auto;
+            margin-top: 40px;
+        }
     }
 
 
